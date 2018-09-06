@@ -1,0 +1,74 @@
+body, html
+{
+    width: 100%;
+    height: 100%;
+    background-color:#FDFDFD;
+}
+.navbar{
+  border: none;
+}
+.btn{
+    margin: 10px;
+}
+.jumbotron{
+  background-color:transparent;
+}
+.intro-header
+{
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background:url("https://images.unsplash.com/photo-1505299916137-b69793a66907?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d30e32d7d5841acee153205743f7a1ca&auto=format&fit=crop&w=1050&q=80");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  display:table;
+}
+.centerize{
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.about-me{
+  padding: 50px;
+  text-align: center;
+  position: relative;
+}
+.about-me hr
+{
+    width: 40px;
+    margin-bottom: 45px;
+    border-color: black;
+}
+hr{
+  border-color: black;
+}
+.portfolio{
+  padding: 50px;
+}
+.portfolio h2
+{  
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.contact{
+  height:100vh;
+  background-color:#616161;
+  padding: 13%;
+  color: white;
+  text-align:center;
+}
+
+.contact a{
+  margin:10%;
+  
+  
+}
+.contact a:hover{
+  color: #64b5f6;
+}
